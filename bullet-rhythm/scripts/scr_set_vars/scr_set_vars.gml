@@ -2,6 +2,7 @@ function set_vars() {
 	dont_cancel = true;
 	meleeCharge = 16;
 	melee_count = 0;
+	recoil = false;
 	last_shot = false;
 	just_meleed = false;
 	just_reset = true;

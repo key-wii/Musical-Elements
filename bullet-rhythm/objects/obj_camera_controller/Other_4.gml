@@ -1,22 +1,18 @@
 //if (global.unpausing) exit;
 
-global.start = true;
+//global.start = true;
 global.nextRoom = false;
 down = true;
 //Camera
 normal = true;
 cameraX = 0;
-cameraY = 0 - room_height;
-/*if (instance_exists(obj_camera_midpoint_target))
+cameraY = 0 /*- room_height*/;
+if (instance_exists(obj_camera_midpoint_target))
 	target = obj_camera_midpoint_target;
-if (instance_exists(obj_camera_miniboss_target))
-	target = obj_camera_miniboss_target;
-if (instance_exists(obj_camera_miniboss_target_tutorial))
-	target = obj_camera_miniboss_target_tutorial;
-else target = obj_tank_pilot;*/
+else target = undefined;
 
-cameraWidth = 1600;
-cameraHeight = 900;
+cameraWidth = global.cameraWidth;
+cameraHeight = global.cameraHeight;
 
 view_enabled = true;
 view_visible[0] = true;
@@ -24,7 +20,7 @@ view_visible[0] = true;
 camera_set_view_size (view_camera[2], cameraWidth, cameraHeight);
 
 //Display
-displayScale = cameraWidth / 1600;
+displayScale = cameraWidth / global.cameraWidth;
 displayWidth = cameraWidth * displayScale;
 displayHeight = cameraHeight * displayScale;
 

@@ -2,7 +2,9 @@
 normal = true;
 cameraX = 0;
 cameraY = 0;
-
+if (instance_exists(obj_camera_midpoint_target))
+	target = obj_camera_midpoint_target;
+else target = undefined;
 
 view_enabled = true;
 view_visible[0] = true;
@@ -10,7 +12,7 @@ view_visible[0] = true;
 camera_set_view_size (view_camera[0], cameraWidth, cameraHeight);
 
 //Display
-displayScale = cameraWidth / 1360;
+displayScale = cameraWidth / global.cameraWidth;
 displayWidth = cameraWidth * displayScale;
 displayHeight = cameraHeight * displayScale;
 

@@ -8,5 +8,3 @@ part_type_speed(global.partDash, 2, 2, .2, 1);
 part_type_alpha1(global.partDash, 1);
 part_type_blend(global.partDash, true);
 part_type_life(global.partDash, 20, 20);
-
-//music_machine(msc_music);

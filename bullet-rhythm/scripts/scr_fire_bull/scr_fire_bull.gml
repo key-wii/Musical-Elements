@@ -11,14 +11,14 @@ function fire_bull(dddir, small) {
 
 function drop_casing(dddir, clip) {
 	dddir += 180;
-	dddir += irandom_range(-12, 12);
+	dddir += irandom_range(-20, 20);
 	var xx = lengthdir_x(sprite_width / 2 + 0, dddir);
 	var yy = lengthdir_y(sprite_width / 2 + 0, dddir);
 	var casing = instance_create_layer(x + xx, y + yy, "Floor", obj_brass);
 	casing.direction = dddir;
 	with (casing) {
 		image_angle = irandom(359);
-		speed = 10 + irandom(120);
+		speed = 20 + irandom(120);
 		if (irandom(4) == 0) speed += 30;
 		if (clip) {
 			sprite_index = spr_clip;

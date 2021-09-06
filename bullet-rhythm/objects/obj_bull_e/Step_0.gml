@@ -50,7 +50,7 @@ if (place_meeting(x, y, obj_player_parent)) {
 		y_adjust = lengthdir_y(20, kbDir);
 		var xx = lengthdir_x(40, kbDir);
 		var yy = lengthdir_y(40, kbDir);
-		splatterRadiusAt(col, x + xx, y + yy, 28, 32, 32);
+		splatterRadiusAt(other.col, x + xx, y + yy, 28, 32, 32);
 		with (other) {
 			image_xscale = 2;
 			image_yscale = 2;

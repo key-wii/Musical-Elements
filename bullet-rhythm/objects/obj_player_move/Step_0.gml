@@ -13,7 +13,6 @@ if (recoil > 0) {
 		if (!place_meeting(x + xx, y, obj_wall)) x += xx;
 		if (!place_meeting(x, y + yy, obj_wall)) y += yy;
 	}
-	//move_wrap(true, true, 30);
 	
 	recoil -= 1;
 	//if (recoil == 0) with (owner) dash();
@@ -34,7 +33,6 @@ if (dashing && can_move) {
 		}
 		dashing = false;
 	}
-	move_wrap(true, true, 30);
 	
 	if (dash_tick mod 3 == 0) {
 		part_type_direction(global.partDash, direction, direction, 0, .1);
@@ -155,6 +153,31 @@ if (xMove != 0 && yMove != 0) {
 }
 x += xMove;
 y += yMove;
+if (xMove != 0 || yMove != 0) {
+	if (xMove > 0) {
+		direction = 0;
+		if (yMove > 0) {
+			direction = 315;
+		} else if (yMove < 0) {
+			direction = 45;
+		}
+	}
+	else if (xMove < 0) {
+		direction = 180;
+		if (yMove > 0) {
+			direction = 225;
+		} else if (yMove < 0) {
+			direction = 135;
+		}
+	}
+	else if (yMove > 0) {
+		direction = 270;
+	}
+	else if (yMove < 0) {
+		direction = 90;
+	}
+}
+image_angle = direction;
 
 //keep moving a bit 1 frame after stopping
 if (just_stopped &&
@@ -185,5 +208,3 @@ if (burst) {
 		speed = -burstSpeed;
 	}
 }*/
-
-move_wrap(true, true, -70);

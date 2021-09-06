@@ -6,7 +6,9 @@ alarm_set(2, 5);
 
 pow = 1;
 
-turn_dir = 0;
-wall_hits = 0;
+hp = 4;
+lost_hp = false;
+//turn_dir = 0;
+//wall_hits = 0;
 
 col = c_white;

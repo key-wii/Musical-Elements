@@ -1,9 +1,10 @@
-//Follow Target
-/*if (instance_exists(target)) {
-	cameraX = target.x - (cameraWidth / 2);
-	cameraY = target.y - (cameraHeight / 2);
-}*/
-if (global.start) {
+var xx = 100, yy = 100;
+if (target != undefined) {
+	xx = 0;
+	yy = 0;
+}
+
+/*if (global.start) {
 	if (down) {
 		cameraY += 20;
 		if (cameraY > 10) down = false;
@@ -16,8 +17,21 @@ if (global.start) {
 		}
 	}
 	//Set Camera Pos
-	camera_set_view_pos(view_camera[0], cameraX + 100, cameraY + 100);
+	camera_set_view_pos(view_camera[0], cameraX + xx, cameraY + yy);
 	exit;
+}*/
+
+//Follow Target
+if (instance_exists(target)) {
+	cameraX = target.x - (cameraWidth / 2);
+	cameraY = target.y - (cameraHeight / 2);
+	//Prevents weird glitch of camera moving to x/y position (0, 0)
+	if (shakeSudden != 0) shakeSudden -= .1;
+	if (shakeSteady != 0) shakeSteady -= .1;
+			if (shakeMax > 0) shakeMax -= .1;
+	else if (shakeMax < 0) shakeMax += .1;
+	cameraX = floor(cameraX);
+	cameraY = floor(cameraY);
 }
 
 if (!global.nextRoom && shakeSudden <= 0 && shakeSteady <= 0 && shakeMax == 0) {
@@ -66,7 +80,7 @@ if (shakeMax != 0) {
 }
 
 //Set Camera Pos
-camera_set_view_pos(view_camera[0], cameraX + 100, cameraY + 100);
+camera_set_view_pos(view_camera[0], cameraX + xx, cameraY + yy);
 
 //Parallax
 /*layer_x("Parallax_0", cameraX * .76);

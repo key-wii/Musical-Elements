@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.2,
+  "volume": 0.3,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "msc_music.mp3",
-  "duration": 41.09061,
+  "duration": 384.548584,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

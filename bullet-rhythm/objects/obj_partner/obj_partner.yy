@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_partner",
-    "path": "sprites/spr_partner/spr_partner.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
