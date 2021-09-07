@@ -6,9 +6,8 @@ function boss_attack(data) {
 	switch(atk) {
 		case 0: with (obj_e) attack1(); break;
 		case 1: with (obj_e) attack1(); break;
-		case 2: with (obj_e) attack1(); break;
+		case 2: with (obj_e) attack2(); break;
 		case 3: with (obj_e) attack1(); break;
 		case 4: with (obj_e) attack1(); break;
-		default: with (obj_e) attack1(); break;
 	}
 }
