@@ -18,7 +18,7 @@ if (movSpd < 0) movSpd = 0;
 // This isn't really necessary, you could put this somewhere else
 if (instance_exists(obj_splatter_controller)) {
     surface_set_target(obj_splatter_controller.surf);
-    draw_sprite_ext(sprite, 0, x, y, image_xscale, image_yscale, image_angle, col, image_alpha);
+    draw_sprite_ext(sprite, image_index, x, y, image_xscale, image_yscale, image_angle, col, clamp(image_alpha, .5, 1));
     surface_reset_target();  
 }
 

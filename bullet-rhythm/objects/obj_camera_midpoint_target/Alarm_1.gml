@@ -1,9 +1,10 @@
+if (!instance_exists(obj_player_move) || !instance_exists(owner))
+	exit;
 if (!instance_exists(owner)) with (obj_camera_controller) {
 	target = obj_player_move;
 	alarm_set(2, 1);
-}
-if (!instance_exists(obj_player_move) || !instance_exists(owner))
 	exit;
+}
 
 full = point_distance(obj_player_move.x, obj_player_move.y, owner.x, owner.y);
 ddir = point_direction(obj_player_move.x, obj_player_move.y, owner.x, owner.y)

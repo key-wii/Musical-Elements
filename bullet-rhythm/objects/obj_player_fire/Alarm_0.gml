@@ -2,7 +2,6 @@ point_mouse();
 fire_bull(direction, true);
 	
 sound_machine(snd_shoot);
-bulls++;
 
 recoil = true;
 var ddir = direction + 180;

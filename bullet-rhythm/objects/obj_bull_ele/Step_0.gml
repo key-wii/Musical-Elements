@@ -9,6 +9,8 @@ if (place_meeting(x, y, obj_e_parent)) {
 			sound_machine(snd_hit_bull);
 			ssSudden(1, 1, false, false);
 			with (other) {
+				var hit = instance_create_layer(x + xx, y + yy, "UI", obj_hitmarker);
+				hit.col = col;
 				image_xscale = 2;
 				image_yscale = 2;
 				speed = 0;
@@ -19,18 +21,23 @@ if (place_meeting(x, y, obj_e_parent)) {
 }
 
 
-if (place_meeting(x, y, obj_wall)) {
+if (sprite_index != spr_muzzleflash && place_meeting(x, y, obj_wall)) {
 	with (obj_wall) {
 		if (place_meeting(x, y, other.id)) {
-			var ran = irandom(3);
-			for (var i = 0; i < ran + 2; i++) with (other) {
-				splatterRadiusAt(col, x + irandom_range(-1, 1), y + irandom_range(-1, 1), .2, .6, irandom(1));
+			with (other) if (!lost_hp) {
+				hp -= 1;
+				if (hp <= 0) {
+					var ran = irandom(3);
+					for (var i = 0; i < ran + 2; i++)
+						splatterRadiusAt(col, x + irandom_range(-1, 1), y + irandom_range(-1, 1), .2, .6, irandom(1));
+					with (other) splatterWall(other.col, spr_splatter, 1);
+					for (var i = 0; i < irandom_range(2, 5); i++)
+						splatterWallAt(col, spr_splatter, .06 + random(.1), x + random_range(-60, 60), y + random_range(-60, 60));
+					
+					instance_change(obj_bull_explode, true);
+				}
+				else lost_hp = true;
 			}
-			splatterWall(other.col, spr_splatter, .5);
-			splatterWallAt(other.col, spr_splatter, .05 + random(.1), x + random_range(-35, 35), y + random_range(-35, 35));
-			splatterWallAt(other.col, spr_splatter, .05 + random(.1), x + random_range(-35, 35), y + random_range(-35, 35));
-    
-			with (other) instance_change(obj_bull_explode, true);
 		}
 	}
 }

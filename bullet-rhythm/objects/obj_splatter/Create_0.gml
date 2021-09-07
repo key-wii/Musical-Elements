@@ -3,6 +3,10 @@ image_xscale = random_range(0.11, .5);
 image_yscale = image_xscale + random_range(-.05, .05);
 image_angle = random(360);
 
+image_speed = 0;
+image_index = irandom(image_number);
+image_alpha = .45;
+
 // Simple, move each blob in a random direction
 movDir = random(360);
 // The is a drastic range because I'm hoping for those big streaks 

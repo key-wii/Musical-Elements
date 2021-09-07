@@ -8,7 +8,6 @@ function knockbacked(knockback, knockbackDir) {
 		speed = knockback;
 		kBack = true;
 		alarm_set(5, 1);
-		move_wrap(true, true, 30);
 	}
 }
 
@@ -18,7 +17,6 @@ function knockbacked3(knockback, knockbackDir) {
 		speed = knockback;
 		kBack = true;
 		alarm_set(5, 3);
-		move_wrap(true, true, 30);
 	}
 }
 
@@ -31,6 +29,5 @@ function knockbacked_player(knockback, knockbackDir) {
 		if (!place_meeting(x, y + yy, obj_wall)) y += yy;
 		kBack = true;
 		alarm_set(5, 1);
-		move_wrap(true, true, 30);
 	}
 }

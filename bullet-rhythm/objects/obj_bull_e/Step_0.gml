@@ -1,7 +1,9 @@
 if (place_meeting(x, y, obj_wall)) {
 	with (obj_wall) {
 		if (place_meeting(x, y, other.id)) {
-			splatterWall(other.col, spr_splatter, .5);
+			splatterWall(other.col, spr_splatter, .75);
+			for (var i = 0; i < irandom_range(2, 3); i++)
+				splatterWallAt(other.col, spr_splatter, .03 + random(.1), x + random_range(-50, 50), y + random_range(-50, 50));
     
 		    with (other) {
 				instance_change(obj_bull_explode, true);
@@ -42,7 +44,6 @@ if (place_meeting(x, y, obj_player_parent)) {
 	with (obj_player_parent) {
 		if (place_meeting(x,y,other.id)) {
 			 take_damage_player(other.pow, kbDir);
-			 reset_combo();
 		}
 		sound_machine(snd_hurt);
 		ssSudden(1, 8, false, false);

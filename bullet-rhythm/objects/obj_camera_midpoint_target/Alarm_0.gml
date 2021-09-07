@@ -1,3 +1,5 @@
+if (!instance_exists(obj_player_move) || !instance_exists(owner))
+	exit;
 if (!instance_exists(owner)) {
 	with (obj_camera_controller) target = obj_player_move;
 	alarm_set(2, 1);

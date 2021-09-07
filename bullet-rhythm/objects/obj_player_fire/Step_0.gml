@@ -1,4 +1,4 @@
-jump_move(move);
+jump_move_player(move);
 
 /*if (!mouse_check_button(mb_left) && !mouse_check_button(mb_right)) {
 	hold = false;

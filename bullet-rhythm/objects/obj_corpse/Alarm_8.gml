@@ -1,2 +1,2 @@
-/// @description win = true
+/// @description win = true;
 win = true;
