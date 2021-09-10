@@ -27,7 +27,7 @@ function song_atttack() {
 	var substr = "N";
 	var newStart = string_pos(substr, global.attack);
 	global.attack = string_digits(string_copy(global.attack, newStart, 7));
-	with (obj_e) boss_attack(global.attack);
+	if (instance_exists(obj_e_parent)) with (obj_e_parent) attack_handler(global.attack);
 }
 
 function cutChart2(str) {

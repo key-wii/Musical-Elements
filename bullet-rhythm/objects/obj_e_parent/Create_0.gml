@@ -6,3 +6,5 @@ x_adjust = 0;
 y_adjust = 0;
 recoil = false;
 dir_adjust = 0;
+
+attack_handler = boss_attack_ducky;

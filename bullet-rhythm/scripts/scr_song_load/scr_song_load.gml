@@ -1,5 +1,6 @@
 function song_load() {
-	var file = file_text_open_read("song.chart");
+	music_machine(msc_musicW);
+	var file = file_text_open_read("songW.chart");
 	global.chart_original = "";
 	
 	while !file_text_eof(file) {
@@ -14,6 +15,8 @@ function song_load() {
 	//global.nextEvent = -1;
 	song_next_index();
 	//song_next_event();
+	
+	attack_picker();
 }
 
 function cutChart(substr, str) {

@@ -1,3 +1,5 @@
+global.focusKey = vk_space;
+
 global.partSystem = part_system_create();
 part_system_depth(global.partSystem, layer_get_depth("Controller") - 1);
 
