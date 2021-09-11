@@ -1,5 +1,5 @@
 y = room_height / 2;
-hp = 15;
+hp = 100;
 spriteDefault = sprite_index;
 spriteHurt = spr_e_hurt;
 col = c_blue;

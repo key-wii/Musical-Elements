@@ -10,7 +10,7 @@ function take_damage(knockback, knockbackDir) {
 	}
 	with (obj_controller) alarm_set(2, 1);
 	
-	knockbacked(knockback, knockbackDir);
+	knockbacked(ceil(knockback / 3), knockbackDir);
 }
 
 function take_damage3(knockback, knockbackDir) {

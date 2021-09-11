@@ -42,6 +42,7 @@ if (global.nextRoom) exit;
 if (place_meeting(x, y, obj_player_parent)) {
 	var kbDir = direction;
 	with (obj_player_parent) {
+		if (iFrame > 0) exit;
 		if (place_meeting(x,y,other.id)) {
 			 take_damage_player(other.pow, kbDir);
 		}
@@ -52,12 +53,5 @@ if (place_meeting(x, y, obj_player_parent)) {
 		var xx = lengthdir_x(40, kbDir);
 		var yy = lengthdir_y(40, kbDir);
 		splatterRadiusAt(other.col, x + xx, y + yy, 28, 32, 32);
-		with (other) {
-			image_xscale = 2;
-			image_yscale = 2;
-			speed = 0;
-			instance_change(obj_bull_explode, true);
-			sprite_index = spr_bull_explode;
-		}
 	}
 }

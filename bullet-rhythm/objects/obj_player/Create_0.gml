@@ -1,6 +1,12 @@
 sprite_default = sprite_index;
 spriteHurt = spr_hurt;
-hp = 10;
+hp = 3;
+iFrames = 120;
+iFrame = 0;
+regenTime = 300 + iFrames;
+
+charge = 0;
+chargeTime = 150;
 
 y = room_height / 2;
 x_adjust = 0;

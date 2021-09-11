@@ -11,8 +11,12 @@ if (place_meeting(x, y, obj_e_parent)) {
 			with (other) {
 				var hit = instance_create_layer(x + xx, y + yy, "UI", obj_hitmarker);
 				hit.col = col;
-				image_xscale = 2;
-				image_yscale = 2;
+				if (pow > 1) {
+					hit.image_xscale = 1.5;
+					hit.image_yscale = 1.5;
+				}
+				image_xscale = 2 * min_size;
+				image_yscale = 2 * min_size;
 				speed = 0;
 				instance_change(obj_bull_explode, true);
 			}
