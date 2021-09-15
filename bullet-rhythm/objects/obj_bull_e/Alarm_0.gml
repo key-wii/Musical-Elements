@@ -15,3 +15,4 @@ if (image_yscale > yscale) {
 	if (image_yscale < yscale) image_yscale = yscale;
 }
 if (image_xscale != xscale || image_yscale != yscale) alarm_set(0, 1);
+else lethal = true;

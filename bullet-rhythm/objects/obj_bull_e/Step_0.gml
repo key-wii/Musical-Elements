@@ -38,7 +38,7 @@ if (place_meeting(x, y, obj_wall)) {
 	}
 }*/
 
-if (global.nextRoom) exit;
+if (global.nextRoom || !lethal) exit;
 if (place_meeting(x, y, obj_player_parent)) {
 	var kbDir = direction;
 	with (obj_player_parent) {

@@ -1,4 +1,6 @@
 function ducky_attack1() {
+	ducky_change();
+	
 	boss_fire_bull(obj_bull_ducky, 20, 10, bubble_dir, 2, .1, .1, 1, 1, c_blue, water);
 	bubble_dir += 60 + bubble_tick;
 	bubble_tick++;
@@ -9,6 +11,8 @@ function ducky_attack1() {
 }
 
 function ducky_attack2() {
+	ducky_change();
+	
 	//from the beak
 	var avg = (sprite_width + sprite_height) / 2;
 	var xx = lengthdir_x(avg / 2 + 5, direction);
@@ -17,6 +21,8 @@ function ducky_attack2() {
 }
 
 function ducky_attack3() {
+	ducky_change();
+	
 	boss_fire_bull(obj_bull_ducky, 20, 10, bubble_dir, 4, .1, .1, 1.5, 1.5, c_blue, water);
 	bubble_dir += 60 + bubble_tick;
 	bubble_tick++;
@@ -27,6 +33,8 @@ function ducky_attack3() {
 }
 
 function ducky_attack4() {
+	ducky_change();
+	
 	//from the beak
 	var avg = (sprite_width + sprite_height) / 2;
 	var xx = lengthdir_x(avg / 2 + 5, direction);
@@ -41,6 +49,8 @@ function ducky_attack4() {
 }
 
 function ducky_attack5() {
+	ducky_change();
+	
 	//from the beak
 	var avg = (sprite_width + sprite_height) / 2;
 	var xx = lengthdir_x(avg / 2 + 5, direction);

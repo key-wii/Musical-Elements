@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "enemy",
-    "path": "folders/Sprites/enemy.yy",
+    "name": "enemy bullets",
+    "path": "folders/Sprites/enemy bullets.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bull_petal",
