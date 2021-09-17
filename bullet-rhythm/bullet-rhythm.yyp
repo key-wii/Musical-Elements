@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"spr_hitmarker","path":"sprites/spr_hitmarker/spr_hitmarker.yy",},"order":5,},
     {"id":{"name":"obj_ducky","path":"objects/obj_ducky/obj_ducky.yy",},"order":2,},
+    {"id":{"name":"obj_pew_pew","path":"objects/obj_pew_pew/obj_pew_pew.yy",},"order":14,},
     {"id":{"name":"obj_bull_rain","path":"objects/obj_bull_rain/obj_bull_rain.yy",},"order":11,},
     {"id":{"name":"spr_player_meleeing","path":"sprites/spr_player_meleeing/spr_player_meleeing.yy",},"order":2,},
     {"id":{"name":"scr_take_damage_player","path":"scripts/scr_take_damage_player/scr_take_damage_player.yy",},"order":3,},
