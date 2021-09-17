@@ -12,7 +12,6 @@ function ducky_attack1() {
 
 function ducky_attack2() {
 	ducky_change();
-	
 	//from the beak
 	var avg = (sprite_width + sprite_height) / 2;
 	var xx = lengthdir_x(avg / 2 + 5, direction);
