@@ -1,5 +1,5 @@
-if (place_meeting(x, y, obj_wall)) {
-	with (obj_wall) {
+if (place_meeting(x, y, obj_destructible)) {
+	with (obj_destructible) {
 		if (place_meeting(x, y, other.id)) {
 			splatterWall(other.col, spr_splatter, .75);
 			for (var i = 0; i < irandom_range(2, 3); i++)

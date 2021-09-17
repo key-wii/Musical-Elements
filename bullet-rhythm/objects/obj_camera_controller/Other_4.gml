@@ -13,11 +13,13 @@ else target = undefined;
 
 cameraWidth = global.cameraWidth;
 cameraHeight = global.cameraHeight;
+wPlus = 0;
+hPlus = 0;
 
 view_enabled = true;
 view_visible[0] = true;
 
-camera_set_view_size (view_camera[2], cameraWidth, cameraHeight);
+camera_set_view_size (view_camera[0], cameraWidth, cameraHeight);
 
 //Display
 displayScale = cameraWidth / global.cameraWidth;

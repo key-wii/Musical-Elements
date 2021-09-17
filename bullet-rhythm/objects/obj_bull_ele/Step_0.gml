@@ -25,8 +25,8 @@ if (place_meeting(x, y, obj_e_parent)) {
 }
 
 
-if (sprite_index != spr_muzzleflash && place_meeting(x, y, obj_wall)) {
-	with (obj_wall) {
+if (sprite_index != spr_muzzleflash && place_meeting(x, y, obj_destructible)) {
+	with (obj_destructible) {
 		if (place_meeting(x, y, other.id)) {
 			with (other) if (!lost_hp) {
 				hp -= 1;

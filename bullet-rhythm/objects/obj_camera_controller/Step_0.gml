@@ -79,8 +79,12 @@ if (shakeMax != 0) {
 	if (shakeMax < 1 && shakeMax > -1) reset_cam_vals();
 }
 
+var shake = shakeSudden + shakeSteady + abs(shakeMax) + plusShake;
 //Set Camera Pos
-camera_set_view_pos(view_camera[0], cameraX + xx, cameraY + yy);
+camera_set_view_pos(view_camera[0],
+	clamp(cameraX + xx, global.edge_left_x - shake - wPlus, global.edge_right_x - cameraWidth + shake + wPlus),
+	clamp(cameraY + yy, global.edge_top_y - shake - hPlus, global.edge_bottom_y - cameraHeight + shake + hPlus));
+//camera_set_view_pos(view_camera[0], cameraX + xx, cameraY + yy);
 
 //Parallax
 /*layer_x("Parallax_0", cameraX * .76);
