@@ -6,4 +6,5 @@ if (instance_exists(player)) {
 	else if (direction < last_dir - 10) direction = last_dir - 10;
 	direction = direction + dir_adjust;
 	image_angle = direction;
+	
 }
