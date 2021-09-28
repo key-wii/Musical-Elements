@@ -1,0 +1,1 @@
+draw_textbox(box_left, box_top, box_w, box_h);
