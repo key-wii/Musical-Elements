@@ -1,7 +1,7 @@
 function ducky_attack1() {
 	ducky_change();
 	
-	boss_fire_bull(obj_bull_ducky, 20, 10, bubble_dir, 2, .1, .1, 1, 1, c_blue, water);
+	boss_fire_bull(obj_bull_ducky, 20, 10, bubble_dir, 2, .3, .3, 1, 1, c_blue, water);
 	bubble_dir += 60 + bubble_tick;
 	bubble_tick++;
 	if (bubble_dir >= 360)
@@ -22,7 +22,7 @@ function ducky_attack2() {
 function ducky_attack3() {
 	ducky_change();
 	
-	boss_fire_bull(obj_bull_ducky, 20, 10, bubble_dir, 4, .1, .1, 1.5, 1.5, c_blue, water);
+	boss_fire_bull(obj_bull_ducky, 20, 10, bubble_dir, 4, .5, .5, 1.5, 1.5, c_blue, water);
 	bubble_dir += 60 + bubble_tick;
 	bubble_tick++;
 	if (bubble_dir >= 360)

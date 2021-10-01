@@ -1,1 +1,1 @@
-image_angle += speed;
+image_angle += speed * dir_face;

@@ -23,6 +23,7 @@ if (instance_exists(player)) direction = point_direction(x, y, player.x, player.
 
 msc = msc_musicW;
 chart = "songW.chart";
+bpm = 240;
 
 event_inherited();
 
