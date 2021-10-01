@@ -1,6 +1,6 @@
 function song_load() {
 	music_machine(msc_music);
-	var file = file_text_open_read("song.chart");
+	var file = file_text_open_read("ducky.chart");
 	global.chart_original = "";
 	
 	while !file_text_eof(file) {
