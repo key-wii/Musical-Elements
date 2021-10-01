@@ -1,3 +1,4 @@
+
 function song_load(msc, chart) {
 	music_machine(msc);
 	var file = file_text_open_read(chart);
