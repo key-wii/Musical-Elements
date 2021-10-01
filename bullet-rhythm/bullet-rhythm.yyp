@@ -14,7 +14,6 @@
     {"id":{"name":"msc_music","path":"sounds/msc_music/msc_music.yy",},"order":20,},
     {"id":{"name":"spr_bull_explode","path":"sprites/spr_bull_explode/spr_bull_explode.yy",},"order":4,},
     {"id":{"name":"obj_bull_e","path":"objects/obj_bull_e/obj_bull_e.yy",},"order":1,},
-    {"id":{"name":"scr_set_music_pos","path":"scripts/scr_set_music_pos/scr_set_music_pos.yy",},"order":3,},
     {"id":{"name":"obj_melee","path":"objects/obj_melee/obj_melee.yy",},"order":1,},
     {"id":{"name":"spr_ducky2","path":"sprites/spr_ducky2/spr_ducky2.yy",},"order":8,},
     {"id":{"name":"obj_spawnerandenemyparent_parent_1","path":"objects/obj_spawnerandenemyparent_parent_1/obj_spawnerandenemyparent_parent_1.yy",},"order":19,},
@@ -106,7 +105,6 @@
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"order":21,},
     {"id":{"name":"msc_music3","path":"sounds/msc_music3/msc_music3.yy",},"order":19,},
     {"id":{"name":"obj_camera_controller","path":"objects/obj_camera_controller/obj_camera_controller.yy",},"order":1,},
-    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":5,},
     {"id":{"name":"fnt_menu_f","path":"fonts/fnt_menu_f/fnt_menu_f.yy",},"order":0,},
     {"id":{"name":"spr_melee","path":"sprites/spr_melee/spr_melee.yy",},"order":0,},
     {"id":{"name":"spr_ducky3","path":"sprites/spr_ducky3/spr_ducky3.yy",},"order":9,},
@@ -153,7 +151,11 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room_duck","path":"rooms/Room_duck/Room_duck.yy",},},
+<<<<<<< HEAD
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
+=======
+    {"roomId":{"name":"Room_pew","path":"rooms/Room_pew/Room_pew.yy",},},
+>>>>>>> parent of 84ffeb1 (working on ducky)
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
