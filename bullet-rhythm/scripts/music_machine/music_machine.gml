@@ -6,7 +6,7 @@ function music_machine(snd) {
 		audio_stop_all();
 		global.music = audio_play_sound(snd, false, true);
 		playing_music = true;
-		set_music_pos();
+		global.music_pos = audio_sound_get_track_position(global.music) * 385 * 2;
 		global.firstSong = true;
 	}
 	

@@ -23,7 +23,6 @@ if (instance_exists(player)) direction = point_direction(x, y, player.x, player.
 
 msc = msc_ducky;
 chart = "ducky.chart";
-bpm = 100;
 
 event_inherited();
 

@@ -1,8 +1,8 @@
 function ducky_change() {
-	/*if (sprite_wait) {
+	if (sprite_wait) {
 		sprite_wait = false;
 		exit;
-	}*/
+	}
 		 if (sprite_index == spr_ducky)  sprite_index = spr_ducky2;
 	else if (sprite_index == spr_ducky2) sprite_index = spr_ducky3;
 	else if (sprite_index == spr_ducky3) sprite_index = spr_ducky;
