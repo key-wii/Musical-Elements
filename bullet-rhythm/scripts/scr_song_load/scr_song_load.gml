@@ -6,6 +6,7 @@ function song_load(msc, chart) {
 	while !file_text_eof(file) {
 	    global.chart_original += file_text_readln(file);
 	}
+	file_text_close(file);
 	
 	global.chart = global.chart_original;
 	
