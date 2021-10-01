@@ -29,11 +29,11 @@ event_inherited();
 
 bubble_dir = 205;
 bubble_tick = 0;
-attack1 = ducky_attack1;
-attack2 = ducky_attack2;
-attack3 = ducky_attack3;
-attack4 = ducky_attack4;
-attack5 = ducky_attack5;
+attack1 = pew_pew_attack1;
+attack2 = pew_pew_attack2;
+attack3 = pew_pew_attack3;
+attack4 = pew_pew_attack4;
+attack5 = pew_pew_attack5;
 
 left = true;
 
