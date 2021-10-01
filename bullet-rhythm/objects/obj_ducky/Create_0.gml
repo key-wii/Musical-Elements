@@ -21,6 +21,9 @@ alarm_set(0, 120);
 var player = obj_player_move;
 if (instance_exists(player)) direction = point_direction(x, y, player.x, player.y);
 
+msc = msc_ducky;
+chart = "ducky.chart";
+
 event_inherited();
 
 bubble_dir = 205;

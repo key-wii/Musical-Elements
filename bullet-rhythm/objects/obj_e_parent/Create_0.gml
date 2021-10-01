@@ -9,3 +9,5 @@ recoil = false;
 dir_adjust = 0;
 
 attack_handler = boss_attack_ducky;
+
+song_load(msc, chart);
