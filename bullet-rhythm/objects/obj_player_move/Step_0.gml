@@ -19,7 +19,7 @@ if (recoil > 0) {
 	exit;
 }
 
-if (dashing && can_move) {
+/*if (dashing && can_move) {
 	var xx = lengthdir_x(dashSpd, direction);
 	var yy = lengthdir_y(dashSpd, direction);
 	if (!place_meeting(x + xx, y, obj_wall)) x += xx;
@@ -39,7 +39,7 @@ if (dashing && can_move) {
 		part_particles_create(global.partSystem, x, y, global.partDash, 1);
 	}
 	exit;
-}
+}*/
 
 if (keyboard_check(ord("W")) && keyboard_check(ord("A")) && keyboard_check(ord("S")) ||
 	keyboard_check(ord("W")) && keyboard_check(ord("A")) && keyboard_check(ord("D")) ||

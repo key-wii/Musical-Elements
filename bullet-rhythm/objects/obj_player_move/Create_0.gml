@@ -6,10 +6,10 @@ alarm_reset = true;
 
 recoil = 0;
 
-dashing = false;
+/*dashing = false;
 dashSpd = 19;
 dash_tick = 0;
-dash_dir_change = 0;
+dash_dir_change = 0;*/
 
 topSpeed_default = 10;
 burstSpeed_default = 11;

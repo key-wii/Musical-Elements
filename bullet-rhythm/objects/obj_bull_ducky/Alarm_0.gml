@@ -1,3 +1,4 @@
+/// @description Grows/Shrinks slower than normal
 if (image_xscale < xscale) {
 	image_xscale *= 1.05;
 	if (image_xscale > xscale) image_xscale = xscale;

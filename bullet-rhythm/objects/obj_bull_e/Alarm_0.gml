@@ -1,3 +1,4 @@
+/// @description Grow/Shrink
 if (image_xscale < xscale) {
 	image_xscale *= 1.1;
 	if (image_xscale > xscale) image_xscale = xscale;
