@@ -1,3 +1,3 @@
-/// @description Reset Room
+/// @description Death
 room_speed = 60;
-room_restart();
+room_goto(Room_death);

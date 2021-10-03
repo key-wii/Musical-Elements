@@ -1,0 +1,1 @@
+global.currentRoom = room;
