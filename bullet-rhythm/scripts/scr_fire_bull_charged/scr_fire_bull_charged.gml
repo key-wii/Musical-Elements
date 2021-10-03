@@ -1,6 +1,6 @@
 function fire_bull_charged(dddir) {
 	point_mouse();
-	fire_bull2(direction, 12);
+	fire_bull2(direction, 3);
 	
 	sound_machine(snd_shoot);
 	

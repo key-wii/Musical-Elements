@@ -16,7 +16,7 @@ function ducky_attack2() {
 	var avg = (sprite_width + sprite_height) / 2;
 	var xx = lengthdir_x(avg / 2 + 5, direction);
 	var yy = lengthdir_y(avg / 2 + 5, direction);
-	boss_fire_bull(obj_bull_e, xx, yy, direction, 4, 1, .1, 1, 1.5, c_blue, water);
+	boss_fire_bull(obj_bull_e, xx, yy, direction, 4, 1, .3, 1, 1.5, c_blue, water);
 }
 
 function ducky_attack3() {

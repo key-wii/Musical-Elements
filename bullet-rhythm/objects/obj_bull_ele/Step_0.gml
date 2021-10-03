@@ -12,8 +12,9 @@ if (place_meeting(x, y, obj_e_parent)) {
 				var hit = instance_create_layer(x + xx, y + yy, "UI", obj_hitmarker);
 				hit.col = col;
 				if (pow > 1) {
-					hit.image_xscale = 1.5;
-					hit.image_yscale = 1.5;
+					hit.sprite_index = spr_hitmarker_charged;
+					hit.image_xscale = .75;
+					hit.image_yscale = .75;
 				}
 				image_xscale = 2 * min_size;
 				image_yscale = 2 * min_size;
