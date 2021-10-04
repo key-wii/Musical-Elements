@@ -37,4 +37,4 @@ attack5 = ducky_attack5;
 
 left = true;
 
-sprite_wait = true;
+sprite_wait = false;

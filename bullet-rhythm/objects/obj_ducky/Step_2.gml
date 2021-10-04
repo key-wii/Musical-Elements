@@ -18,3 +18,5 @@ if (!left) {
 } else {
 	direction = image_angle - 115;
 }
+
+sprite_wait = false;

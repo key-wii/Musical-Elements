@@ -7,5 +7,4 @@ if (dir_face == 0) dir_face = -1;
 stretch = true;
 squash = false;
 
-alarm_set(0, 60);
 alarm_set(3, 20);
