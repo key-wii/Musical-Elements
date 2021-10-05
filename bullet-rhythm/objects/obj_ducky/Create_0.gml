@@ -1,11 +1,12 @@
 y = room_height / 2;
-hp_max = 15;
+hp_max = 25;
 hp = hp_max;
 spriteDefault = sprite_index;
 spriteHurt = spr_e_hurt;
 col = c_blue;
 element = water;
 
+defeat = obj_ducky_defeat;
 image_angle -= 40;
 stretch = true;
 squash = false;
