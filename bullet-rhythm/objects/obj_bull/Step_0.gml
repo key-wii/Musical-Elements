@@ -37,6 +37,7 @@ if (sprite_index != spr_muzzleflash && place_meeting(x, y, obj_destructible)) {
 if (place_meeting(x, y, obj_e_parent)) {
 	with (obj_e_parent) {
 		if (place_meeting(x, y, other.id)) {
+			instance_create_layer(x, y, "UI", obj_heart);
 			hp += 1;
 			if (hp > hp_max) hp = hp_max;
 			with (other) {

@@ -1,6 +1,11 @@
-//maxHp = hp;
-//hp = 1;
+global.music_pos = 0;
 col = c_white;
+
+hp_r = sprite_width;
+switch (element) {
+	case water: hp_col = c_aqua; break;
+	default: hp_col = c_purple; break;
+}
 
 image_speed = 0;
 x_adjust = 0;

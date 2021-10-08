@@ -9,6 +9,17 @@ if (gun2dir != 0 && bulls > 0) with (gun) {
 	image_xscale, image_yscale, ttheta, c_white, image_alpha)
 }
 
+//Draw HP
+for (var i = 0; i < hp; i++) {
+	if (obj_player_move.xMove == 0 && obj_player_move.yMove == 0) hp_rot += .5;
+	else hp_rot += .3;
+	
+	heart_rot = clamp(360 / hp, heart_rot - 1, heart_rot + 1);
+	var xx = lengthdir_x(64, (i * heart_rot) + hp_rot);
+	var yy = lengthdir_y(64, (i * heart_rot) + hp_rot);
+	draw_sprite_ext(spr_heart, 0, x + xx, y + yy, image_xscale, image_yscale, direction, c_white, 1);
+}
+
 /*draw_set_halign(fa_middle);
 draw_set_font(fnt_placeholder);
 if (hp > 9) var col = c_lime;

@@ -1,4 +1,9 @@
 function song_read() {
+	if (global.loop) {
+		song_load(msc, chart);
+		global.loop = false;
+	}
+	
 	if (global.music_pos >= global.nextNumber) {
 		if (global.nextNumber >= 0) {
 			global.attack = getFirstLine(global.chart);
