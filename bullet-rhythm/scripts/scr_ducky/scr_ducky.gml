@@ -62,3 +62,13 @@ function ducky_attack5() {
 	if (bubble_tick >= 5)
 		bubble_tick = 0;
 }
+
+function ducky_attack6() {
+	ducky_change();
+}
+
+function ducky_attack7() {
+	ducky_change();
+	
+	boss_fire_bull(obj_bull_ripple, 0, y_adjust / 4, 0, 0, .01, .01, 1, 1, c_blue, water);
+}

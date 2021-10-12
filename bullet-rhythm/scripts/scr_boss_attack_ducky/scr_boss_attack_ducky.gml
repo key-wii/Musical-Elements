@@ -9,5 +9,7 @@ function boss_attack_ducky(data) {
 		case 2: with (obj_e_parent) attack3(); break;
 		case 3: with (obj_e_parent) attack4(); break;
 		case 4: with (obj_e_parent) attack5(); break;
+		case 5: with (obj_e_parent) attack6(); break;
+		case 6: with (obj_e_parent) attack7(); break;
 	}
 }

@@ -30,3 +30,5 @@ gun = instance_create_layer(x, y, "Player", obj_arrow);
 gun.owner = id;
 gun.radius = sprite_width;
 gun2dir = 0;
+
+laser = false;

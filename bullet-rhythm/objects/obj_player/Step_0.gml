@@ -29,7 +29,7 @@ if ((mouse_check_button(mb_left) || mouse_check_button(mb_right))) {
 if ((mouse_check_button_released(mb_left) || mouse_check_button_released(mb_right))) {
 	if (charge < 10) {
 		instance_change(obj_player_fire, true);
-	} else if (charge >= chargeTime) {
+	} else if (charge >= chargeTime - 1) {
 		fire_bull_charged(direction);
 	}
 	charge = 0;

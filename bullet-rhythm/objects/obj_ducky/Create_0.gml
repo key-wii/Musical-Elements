@@ -35,6 +35,8 @@ attack2 = ducky_attack2;
 attack3 = ducky_attack3;
 attack4 = ducky_attack4;
 attack5 = ducky_attack5;
+attack6 = ducky_attack6;
+attack7 = ducky_attack7;
 
 left = true;
 
