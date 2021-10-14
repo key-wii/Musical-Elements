@@ -2,7 +2,7 @@ if (place_meeting(x, y, obj_e_parent)) {
 	var kbDir = direction;
 	with (obj_e_parent) {
 		if (place_meeting(x, y, other.id)) {
-			take_damage(other.pow, kbDir);
+			take_damage(other.pow, kbDir, other.element);
 			var xx = lengthdir_x(5, direction);
 			var yy = lengthdir_y(5, direction);
 			splatterRadiusAt(other.col, x + xx, y + yy, 8, 16, 30);

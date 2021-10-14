@@ -16,6 +16,7 @@ if (place_meeting(x, y, obj_bull_e)) {
 				}
 				element_stolen_by = other.id;
 				other.col = col;
+				other.element = element;
 				exit;
 			}
 		}

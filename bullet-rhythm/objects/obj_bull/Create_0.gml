@@ -12,3 +12,4 @@ lost_hp = false;
 //wall_hits = 0;
 
 col = c_white;
+element = -1;
