@@ -151,7 +151,16 @@ if (xMove != 0 && yMove != 0) {
 	xMove *= .707;
 	yMove *= .707;
 }
-if (keyboard_check(global.focusKey)) {
+if (slow) {
+	if (keyboard_check(global.focusKey)) {
+		xMove = 0;
+		yMove = 0;
+	} else {
+		xMove /= 20;
+		yMove /= 20;
+	}
+}
+else if (keyboard_check(global.focusKey)) {
 	xMove /= 4;
 	yMove /= 4;
 }

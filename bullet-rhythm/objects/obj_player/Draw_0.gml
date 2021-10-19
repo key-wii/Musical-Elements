@@ -8,7 +8,7 @@ event_inherited();
 
 //Draw star on top of player at end of charging gun
 if (charge >= chargeTime - 2 && charge != chargeTime) {
-	draw_set_alpha(1 - (charge * .003));
+	draw_set_alpha(1 - (charge * .004));
 	draw_sprite(spr_charge_final, 0, x, y);
 	draw_set_alpha(1);
 	exit;

@@ -24,6 +24,7 @@ if ((mouse_check_button(mb_left) || mouse_check_button(mb_right))) {
 			image_xscale -= .25;
 			image_yscale -= .25;
 		}
+		charge += 2;
 	}
 }
 if ((mouse_check_button_released(mb_left) || mouse_check_button_released(mb_right))) {

@@ -15,6 +15,7 @@ topSpeed_default = 10;
 burstSpeed_default = 11;
 topSpeed = topSpeed_default;
 burstSpeed = burstSpeed_default;
+slow = false;
 
 enum Hdir {
 	left, right, na
