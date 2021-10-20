@@ -32,8 +32,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "enemy",
-    "path": "folders/Objects/enemy.yy",
+    "name": "bullets",
+    "path": "folders/Objects/enemy/bullets.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_bull_ducky",

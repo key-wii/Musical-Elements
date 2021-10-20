@@ -30,7 +30,6 @@ if (place_meeting(x, y, obj_player_parent)) {
 		if (place_meeting(x,y,other.id)) {
 			 take_damage_player(other.pow, kbDir);
 		}
-		sound_machine(snd_hurt);
 		ssSudden(1, 8, false, false);
 		x_adjust = lengthdir_x(20, kbDir);
 		y_adjust = lengthdir_y(20, kbDir);

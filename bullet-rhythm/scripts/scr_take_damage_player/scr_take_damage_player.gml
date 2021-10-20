@@ -1,5 +1,6 @@
 function take_damage_player(knockback, knockbackDir) {
-	if (global.nextRoom) exit;
+	if (global.nextRoom || global.win) exit;
+	sound_machine(snd_hurt);
 	room_speed = 15;
 	with (obj_controller) alarm_set(2, 2);
 	sprite_index = spriteHurt;

@@ -2,12 +2,7 @@ global.focusKey = vk_space;
 
 global.win = false;
 
-//UIcolor = make_color_rgb(150, 223, 244); //light blue
-UIcolor = c_white;
-UIselectedColor = make_color_rgb(193, 239, 95); //light green
-UIcolorAlt = $f662d1; //pink
-//UIselectedColor = make_color_rgb(213, 227, 172); //almost white green
-//UIselectedColor = make_color_rgb(248, 157, 49); //orange
+alarm_set(0, 1);
 
 global.partSystem = part_system_create();
 part_system_depth(global.partSystem, layer_get_depth("Controller") - 1);

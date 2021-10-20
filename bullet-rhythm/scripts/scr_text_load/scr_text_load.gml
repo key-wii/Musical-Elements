@@ -1,5 +1,5 @@
-function text_load() {
-	var file = file_text_open_read("intro.txt");
+function text_load(textfile) {
+	var file = file_text_open_read(textfile);
 	global.text_original = "";
 	
 	while !file_text_eof(file) {

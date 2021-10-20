@@ -6,11 +6,15 @@ function text_read() {
 		charCount = 0;
 		textSound = 0;
 	}
+	if (fullText == "END") {
+		with (controller) instance_destroy();
+		instance_destroy();
+	}
 }
 
 function cutHeader(str) {
 	var toHere = string_pos("{", str);
-	str = string_delete(str, 1, toHere + 2);
+	str = string_delete(str, 1, toHere + 1);
 	return str;
 }
 

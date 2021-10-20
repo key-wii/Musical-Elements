@@ -1,0 +1,9 @@
+[Ducky]
+{
+Quack
+}
+
+[END]
+{
+END
+}

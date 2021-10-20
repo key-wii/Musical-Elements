@@ -7,7 +7,7 @@ col = c_blue;
 element = water;
 
 defeat = obj_ducky_defeat;
-image_angle -= 40;
+image_angle = 320;
 stretch = true;
 squash = false;
 tiltCount = 0;

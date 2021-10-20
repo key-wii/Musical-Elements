@@ -1,4 +1,5 @@
-point_mouse();
+if (!global.cutscene) point_mouse();
+else point_boss();
 image_angle += charge * 12;
 
 if (charge == 0) {

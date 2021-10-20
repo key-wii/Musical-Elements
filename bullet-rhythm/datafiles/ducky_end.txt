@@ -1,0 +1,14 @@
+[Ducky]
+{
+You've bested me
+}
+
+[Ducky]
+{
+bleh
+}
+
+[END]
+{
+END
+}
