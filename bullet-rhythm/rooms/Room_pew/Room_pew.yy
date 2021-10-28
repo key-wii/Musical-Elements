@@ -24,7 +24,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1700.0,"y":2050.0,"resourceVersion":"1.0","name":"inst_56FB67F_1_1","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":50,"gridY":50,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_pew_pew","path":"objects/obj_pew_pew/obj_pew_pew.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2400.0,"y":2050.0,"resourceVersion":"1.0","name":"inst_18779D39","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_pew_pew_cutscene","path":"objects/obj_pew_pew_cutscene/obj_pew_pew_cutscene.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2400.0,"y":2050.0,"resourceVersion":"1.0","name":"inst_741DC03","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_controller_cutscene","path":"objects/obj_controller_cutscene/obj_controller_cutscene.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2150.0,"y":1850.0,"resourceVersion":"1.0","name":"inst_6A651DDB","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":50,"gridY":50,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Enemy","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Bull_e","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -57,7 +58,8 @@
     {"name":"inst_6C17A1C9_1_1","path":"rooms/Room_pew/Room_pew.yy",},
     {"name":"inst_3BB1EA59_1_1","path":"rooms/Room_pew/Room_pew.yy",},
     {"name":"inst_40F8153A_1_1","path":"rooms/Room_pew/Room_pew.yy",},
-    {"name":"inst_18779D39","path":"rooms/Room_pew/Room_pew.yy",},
+    {"name":"inst_741DC03","path":"rooms/Room_pew/Room_pew.yy",},
+    {"name":"inst_6A651DDB","path":"rooms/Room_pew/Room_pew.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

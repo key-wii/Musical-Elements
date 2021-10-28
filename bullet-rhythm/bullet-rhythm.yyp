@@ -28,6 +28,7 @@
     {"id":{"name":"msc_music2","path":"sounds/msc_music2/msc_music2.yy",},"order":1,},
     {"id":{"name":"scr_screenshakeFixed","path":"scripts/scr_screenshakeFixed/scr_screenshakeFixed.yy",},"order":1,},
     {"id":{"name":"obj_destructible","path":"objects/obj_destructible/obj_destructible.yy",},"order":20,},
+    {"id":{"name":"obj_pew_pew_cutscene","path":"objects/obj_pew_pew_cutscene/obj_pew_pew_cutscene.yy",},"order":20,},
     {"id":{"name":"obj_player_parent","path":"objects/obj_player_parent/obj_player_parent.yy",},"order":1,},
     {"id":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},"order":0,},
     {"id":{"name":"scr_collide_wall","path":"scripts/scr_collide_wall/scr_collide_wall.yy",},"order":9,},
@@ -241,7 +242,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"ducky.chart","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"ducky_start.txt","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"ducky_end.txt","resourceType":"GMIncludedFile",},
-    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"pew_start .txt","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"pew_start.txt","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"pew_end.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
