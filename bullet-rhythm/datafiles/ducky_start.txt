@@ -1,6 +1,42 @@
-[Ducky]
+[Player]
 {
-Quack
+Hello
+}
+
+[Ducky2]
+{
+You do not possess the identity
+or powers required to proclaim
+the title of a holy being
+}
+
+[Ducky2]
+{
+sent unto the fabric of the
+universe itself to create new
+worlds and lifeforms
+of all shapes and sizes
+}
+
+[Ducky2]
+{
+but I shall partake in the
+consumption of the very
+strands of life that define
+your existence
+}
+
+[Ducky3]
+{
+in order to feed my ego
+}
+
+[Ducky2]
+{
+without any regard for
+my safety,
+well-being, and
+special plated armor.
 }
 
 [END]

@@ -23,4 +23,5 @@ alarm_set(2, 1);
 clickHeld = 0;
 
 textfile = "intro.txt";
-portrait = spr_por_ducky;
+global.portrait = spr_por_ducky;
+global.textSnd = snd_text;

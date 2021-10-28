@@ -6,11 +6,11 @@ function draw_textbox(box_left, box_top, box_w, box_h) {
 
 	draw_9slice(box_left, box_top, box_w, box_h, spr_box, 0);
 	var por_h = box_h - p_space * 2;
-	draw_sprite_stretched(portrait, 0, box_left + p_space, box_top + p_space, por_h, por_h);
+	draw_sprite_stretched(global.portrait, 0, box_left + p_space, box_top + p_space, por_h, por_h);
 
 	var tLen = string_length(fullText);
 	if (charCount < tLen + 8) {
-		if (textSound mod 7 == 0 && charCount < tLen) sound_machine(snd_text);
+		if (textSound mod 7 == 0 && charCount < tLen) sound_machine(global.textSnd);
 		textSound += 1;
 		charCount += .5;
 		//alarm_set(1, 30);
