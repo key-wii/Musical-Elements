@@ -12,3 +12,5 @@ recoil = false;
 dir_adjust = 0;
 
 boss = obj_pew_pew;
+
+audio_play_sound(msc_death, false, true);

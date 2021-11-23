@@ -25,7 +25,7 @@ Nick Hortua
 [Ducky]
 {
 Music by:
-Devon,
+Devon
 Zach
 }
 

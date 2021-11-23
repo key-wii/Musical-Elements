@@ -67,6 +67,9 @@ function element_power(ele) {
 }
 
 function text_weakness(ele, text) {
+	if (text == obj_text_weak) sound_machine(snd_weak);
+	if (text == obj_text_resist) sound_machine(snd_resist);
+	
 	var ran = irandom_range(-45, 45);
 	var textUp = instance_create_layer(x + irandom_range(-10, 10),
 		y - lengthdir_y(sprite_height, 90 + ran), "UI", text);

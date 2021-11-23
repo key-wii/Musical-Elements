@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.5,
+  "volume": 0.1,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "msc_ducky.wav",
-  "duration": 129.597321,
+  "soundFile": "snd_resist.wav",
+  "duration": 0.629637,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "msc_ducky",
+  "name": "snd_resist",
   "tags": [],
   "resourceType": "GMSound",
 }
