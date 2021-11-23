@@ -1,5 +1,5 @@
 y = room_height / 2;
-hp_max = 25;
+hp_max = 70;
 hp = hp_max;
 spriteDefault = sprite_index;
 spriteHurt = spr_ducky_hurt;
@@ -37,6 +37,8 @@ attack4 = ducky_attack4;
 attack5 = ducky_attack5;
 attack6 = ducky_attack6;
 attack7 = ducky_attack7;
+attack8 = ducky_attack8;
+attack9 = ducky_attack9;
 
 left = true;
 

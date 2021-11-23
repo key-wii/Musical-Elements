@@ -1,4 +1,5 @@
 global.focusKey = vk_space;
+global.focusKey2 = vk_shift;
 
 global.win = false;
 

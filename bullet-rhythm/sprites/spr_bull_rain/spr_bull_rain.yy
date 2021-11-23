@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "enemy bullets",
-    "path": "folders/Sprites/enemy bullets.yy",
+    "path": "folders/Sprites/enemy/enemy bullets.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bull_rain",

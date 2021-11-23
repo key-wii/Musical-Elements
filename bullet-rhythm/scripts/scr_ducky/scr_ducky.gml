@@ -72,3 +72,33 @@ function ducky_attack7() {
 	
 	boss_fire_bull(obj_bull_ripple, 0, y_adjust / 4, 0, 0, .01, .01, 1, 1, c_blue, water);
 }
+
+function ducky_attack8() {
+	ducky_change();
+	
+	var avg = (sprite_width + sprite_height) / 2 - 5;
+	var xx = lengthdir_x(avg / 2 + 5, bubble_dir);
+	var yy = lengthdir_y(avg / 2 + 5, bubble_dir);
+	boss_fire_bull(obj_bull_eleBubble, 20 + xx, 10 + yy, bubble_dir, 4, .5, .5, 2, 2, c_yellow, electric);
+	bubble_dir += 60 + bubble_tick;
+	bubble_tick++;
+	if (bubble_dir >= 360)
+		bubble_dir -= 360;
+	if (bubble_tick >= 5)
+		bubble_tick = 0;
+}
+
+function ducky_attack9() {
+	ducky_change();
+	
+	var avg = (sprite_width + sprite_height) / 2 - 5;
+	var xx = lengthdir_x(avg / 2 + 5, bubble_dir);
+	var yy = lengthdir_y(avg / 2 + 5, bubble_dir);
+	boss_fire_bull(obj_bull_fire, 20 + xx, 10 + yy, bubble_dir, 4, .5, .5, 2, 2, c_red, fire);
+	bubble_dir += 60 + bubble_tick;
+	bubble_tick++;
+	if (bubble_dir >= 360)
+		bubble_dir -= 360;
+	if (bubble_tick >= 5)
+		bubble_tick = 0;
+}

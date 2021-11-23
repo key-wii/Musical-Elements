@@ -1,11 +1,20 @@
 [Ducky]
 {
-You've bested me
+Oh goodness...
+I'm so...
+tired...
+}
+
+[Player]
+{
+Giving up so soon?
 }
 
 [Ducky3]
 {
-bleh
+I just need a...
+breather...
+that's all...
 }
 
 [END]

@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.1,
+  "volume": 0.175,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "msc_death.mp3",
-  "duration": 149.282,
+  "duration": 29.62285,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
