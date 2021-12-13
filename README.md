@@ -1,4 +1,4 @@
 # Musical-Elements
 
-Character art by Josh Brase
+Character art by Josh Brase,
 Music by Devon and Zach
